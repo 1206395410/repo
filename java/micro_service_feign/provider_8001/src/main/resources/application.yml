@@ -1,0 +1,12 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: springcloud-provider
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7000/eureka/    #注册服务的地址
+

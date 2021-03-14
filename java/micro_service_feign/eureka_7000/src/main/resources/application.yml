@@ -1,0 +1,9 @@
+server:
+  port: 7000
+
+eureka:
+  # 是否将此服务端也注册到某注册中心，如果为ture，就需要填写注册中心url
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
